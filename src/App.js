@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import PostScreen from './components/PostScreen';
+import PostScreen from './screens/PostScreen';
 import './App.css';
 
 function App() {
-  
+
   return (
     <div>
       <main>
@@ -12,6 +12,6 @@ function App() {
       </main>
     </div>
   );
-}
+};
 
 export default App;
