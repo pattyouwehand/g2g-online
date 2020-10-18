@@ -23,7 +23,7 @@ const PostScreen = (props) => {
     }, [setAppState]);
 
     return (
-        <div className="container-style">
+        <div>
             <PostLoading isLoading={appState.loading} posts={appState.posts} />
         </div>
     );
